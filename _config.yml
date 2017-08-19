@@ -1,31 +1,26 @@
-markdown: kramdown
-highlighter: pygments
-permalink: /posts/:title.html
-excerpt_separator: "<!-- more -->"
-
-github: panxw
-author: "kevinwang"
-email: winfirm#163.com
-name: "Kevinwang's blog"
+# Site settings
+name: Beyond code
+email: 
+author: Kevin Wang
 url: 
-domain: 
-all_categories: [
-["android", "Android开发","/posts/android.html"], 
-["program", "软件编程","/posts/program.html"],
-["web", "Web建站","/posts/web.html"], 
-["linux", "Linux相关","/posts/linux.html"],
-["read", "读书笔记","/posts/read.html"], 
-["other", "杂记","/posts/other.html"],
-["about", "关于","/about.html"]
-]
+resume_site: 
+github: 
+baseurl: ""
+description: Actually, less is more!
+meta_description: 个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
+motto: It's our wits that make us men.
+banner: 学而不思则罔，思而不学则殆。
 
-paginate: 8
-paginate_path: "posts/page:num"
-timezone: America/Los_Angeles
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
 
-collections:
-  docs:
-    output: true
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
-gems:
- - jekyll-paginate
+github_username: luoyan35714
+highlighter: Rouge
+
+# Build settings
+markdown: kramdown
+
+baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
